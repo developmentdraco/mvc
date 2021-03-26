@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+    <body>
+        <h1><%= title %></h1>
+
+            <% makis.map( maki => { %>
+                <div class="makis-container">
+                    <div class="name"><%=  maki.name  %></div>
+                    <div class="desc"><%=  maki.description  %></div>
+                    <div class="desc">$<%=  maki.price  %> mxn</div>
+
+                    <% maki.ingredients.map( ingredient => { %>
+
+                        <div class="ingredient"> <%= ingredient %> </div>
+
+                    <% }) %>
+                    
+                    <button class="btn">Ordenar</button>
+
+                </div>
+            <% }) %>
+
+    </body>
+</html>

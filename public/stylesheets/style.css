@@ -1,0 +1,57 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+    color: #df3456ff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.makis-container {
+    background-color: #df3456ff;
+    border-radius: 3px;
+    display: block;
+    margin: 20px auto 20px auto;
+    padding: 40px;
+    width:350px;
+}
+
+.makis-container .name {
+    color: #e2e8f0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.makis-container .desc {
+    color: #e2e8f0;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.makis-container .ingredient {
+
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+
+}
+
+.makis-container .btn {
+
+    background-color: #e2e8f0;
+    color: #33383cff;
+    cursor: pointer;
+    display: block;
+    margin: 25px auto 0px auto;
+    padding: 5px 10px;
+    width: 120px;
+
+}
