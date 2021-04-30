@@ -6,11 +6,11 @@ let controller = {};
 controller.getMakis = async ( req, res, next ) => {
 
     try {
-
+        
         let viewData = {};
         let makis = await database.getItems( 'makis', {} );
 
-        viewData.title = 'Ordenar Makis';
+        viewData.title = 'Menu de Makis';
         viewData.makis = makis;
 
         res.render( 'index', viewData );
